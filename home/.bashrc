@@ -15,5 +15,6 @@ export UMASK=027 # rwxr-x---
 source "$HOME/.bash_os_detect"
 source "$HOME/$HOST_SPECIFIC_RC"
 
-source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
+export HOMESHICK_DIR=/usr/local/opt/homeshick
+source "$HOMESHICK_DIR/homeshick.sh"
+source "$HOMESHICK_DIR/etc/bash_completion.d/homeshick-completion.bash"

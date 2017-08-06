@@ -1,0 +1,10 @@
+Launch these only once:
+open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app
+open /Applications/ShiftIt.app
+open /Applications/Caffeine.app
+
+Set your fonts for iterm to be:
+ASCII 12pt Meslo LG S DZ Regular for Powerline -- +AA
+NON-ASCII 12.2pt Meslo LG S DZ Regular for Powerline -- +AA
+
+Don't forget to edit your chrome settings!!
